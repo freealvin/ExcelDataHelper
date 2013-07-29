@@ -3,6 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelDataHelper", "ExcelDataHelper\ExcelDataHelper.csproj", "{A6C21A91-1D20-422A-9BDE-88A2E76978F5}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ExcelDataDemo", "ExcelDataDemo\", "{0E3EB430-05BC-46C0-A2FC-2F5D99D9DB6A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/ExcelDataDemo"
+		Debug.AspNetCompiler.PhysicalPath = "ExcelDataDemo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ExcelDataDemo\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ExcelDataDemo"
+		Release.AspNetCompiler.PhysicalPath = "ExcelDataDemo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ExcelDataDemo\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "18767"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +33,10 @@ Global
 		{A6C21A91-1D20-422A-9BDE-88A2E76978F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6C21A91-1D20-422A-9BDE-88A2E76978F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6C21A91-1D20-422A-9BDE-88A2E76978F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3EB430-05BC-46C0-A2FC-2F5D99D9DB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3EB430-05BC-46C0-A2FC-2F5D99D9DB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3EB430-05BC-46C0-A2FC-2F5D99D9DB6A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3EB430-05BC-46C0-A2FC-2F5D99D9DB6A}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

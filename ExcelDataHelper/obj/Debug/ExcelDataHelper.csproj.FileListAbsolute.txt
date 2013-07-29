@@ -1,0 +1,2 @@
+C:\Users\BUAA\Documents\Visual Studio 2008\Projects\ExcelDataHelper\ExcelDataHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\BUAA\ExcelDataHelper\ExcelDataHelper\obj\Debug\ResolveAssemblyReference.cache
