@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using DataImportLib.Entity;
+using ExcelDataHelper.Entity;
 using System.Data;
 
-namespace DataImportLib.DataManager
+namespace ExcelDataHelper.DataManager
 {
     /// <summary>
     /// 数据管理的抽象接口，主要为了解决不同类型的数据目标（oracle，sqlserver等）之间的不同

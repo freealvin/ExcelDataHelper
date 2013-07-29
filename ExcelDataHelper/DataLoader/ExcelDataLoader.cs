@@ -4,7 +4,7 @@ using System.Text;
 using System.Data;
 using System.Data.OleDb;
 
-namespace DataImportLib.DataLoader
+namespace ExcelDataHelper.DataLoader
 {
     public class ExcelDataLoader
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Data;
 
-namespace DataImportLib.Entity
+namespace ExcelDataHelper.Entity
 {
     /// <summary>
     /// 导入结果类

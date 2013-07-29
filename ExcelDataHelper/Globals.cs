@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Configuration;
 
-namespace DataImportLib
+namespace ExcelDataHelper
 {
     public class Globals
     {

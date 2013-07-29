@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-using DataImportLib.Entity;
+using ExcelDataHelper.Entity;
 using System.Data;
-using DataImportLib.DataManager;
+using ExcelDataHelper.DataManager;
 
-namespace DataImportLib
+namespace ExcelDataHelper
 {
     public class ImportHandler
     {

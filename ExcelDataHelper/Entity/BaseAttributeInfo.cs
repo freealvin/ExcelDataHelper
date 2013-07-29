@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataImportLib.Entity
+namespace ExcelDataHelper.Entity
 {
     /// <summary>
     /// 一列数据属性的基类

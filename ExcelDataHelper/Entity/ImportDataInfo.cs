@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataImportLib.Entity
+namespace ExcelDataHelper.Entity
 {
     /// <summary>
     /// 导入数据的信息类，包括一个导入类型的所有信息

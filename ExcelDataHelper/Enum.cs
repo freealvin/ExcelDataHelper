@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataImportLib
+namespace ExcelDataHelper
 {
     public enum DestinationType
     {
         /// <summary>
         /// OracleÊý¾Ý¿â
         /// </summary>
-        Oracle
+        Oracle,SqlServer
     }
 }

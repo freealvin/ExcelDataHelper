@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Data;
-using DataImportLib.Entity;
+using ExcelDataHelper.Entity;
 using System.Text.RegularExpressions;
 
-namespace DataImportLib.Helper
+namespace ExcelDataHelper.Helper
 {
     class DataHelper
     {

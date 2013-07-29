@@ -8,7 +8,7 @@ using System.Collections;
 using Excel = Microsoft.Office.Interop.Excel;
 
 //using cfg = System.Configuration;
-namespace DataImportLib.Helper
+namespace ExcelDataHelper.Helper
 {
     public class ExcelHelper
     {

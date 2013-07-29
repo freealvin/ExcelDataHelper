@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using DataImportLib.DataManager;
+using ExcelDataHelper.DataManager;
 
-namespace DataImportLib
+namespace ExcelDataHelper
 {
     class Fatory
     {

@@ -45,6 +45,7 @@
     <Compile Include="DataLoader\ExcelDataLoader.cs" />
     <Compile Include="DataManager\IDataManager.cs" />
     <Compile Include="DataManager\OracleDataManager.cs" />
+    <Compile Include="DataManager\SqlDataManager.cs" />
     <Compile Include="Entity\AttributeInfo.cs" />
     <Compile Include="Entity\BaseAttributeInfo.cs" />
     <Compile Include="Entity\CertainValueInfo.cs" />

@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using DataImportLib.Entity;
+using ExcelDataHelper.Entity;
 using System.Data;
 using Oracle.DataAccess.Client;
-using DataImportLib.Helper;
+using ExcelDataHelper.Helper;
 
-namespace DataImportLib.DataManager
+namespace ExcelDataHelper.DataManager
 {
     /// <summary>
     /// Oracle的数据管理器
@@ -768,9 +768,9 @@ namespace DataImportLib.DataManager
         /// </summary>
         /// <param name="attributeInfo"></param>
         /// <returns></returns>
-        private static OracleDbType GetAttributeDbType(BaseAttributeInfo baseAttributeInfo)
+        private static SqlDbType GetAttributeDbType(BaseAttributeInfo baseAttributeInfo)
         {
-            OracleDbType dbType = (OracleDbType)Enum.Parse(typeof(OracleDbType), baseAttributeInfo.ValueType, true);
+            SqlDbType dbType = (SqlDbType)Enum.Parse(typeof(SqlDbType), baseAttributeInfo.ValueType, true);
             return dbType;
         }
 
@@ -868,6 +868,7 @@ namespace DataImportLib.DataManager
                 {
                     case "decimal":
                     case "int32":
+                    case "int":
                     case "double":
                         return (strData.IndexOf('.') >= 0) ? (object)double.Parse(strData) : (object)int.Parse(strData);
                     case "date":

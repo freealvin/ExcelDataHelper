@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Security.Cryptography;
 
-namespace DataImportLib.Helper
+namespace ExcelDataHelper.Helper
 {
     public class EncryptHelper
     {

@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-using DataImportLib.Entity;
-using DataImportLib.DataManager;
+using ExcelDataHelper.Entity;
+using ExcelDataHelper.DataManager;
 
-namespace DataImportLib
+namespace ExcelDataHelper
 {
     class ConfigXmlLoader
     {
